@@ -1,1 +1,153 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.text {
+  font-family: 'Roboto', sans-serif;
+  color: #080801;
+}
+.sm {
+  font-family: 'Roboto', sans-serif;
+  color: #080801;
+  font-size: 16px;
+  font-weight: 400;
+}
+.md {
+  font-family: 'Roboto', sans-serif;
+  color: #080801;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.lg {
+  font-family: 'Roboto', sans-serif;
+  color: #080801;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-section {
+  display: flex;
+  padding: 4% 7%;
+  align-items: center;
+}
+.flex-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 7%;
+}
+li,
+h1,
+h2,
+p,
+nav,
+button {
+  font-family: 'Roboto', sans-serif;
+  color: #080801;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #080801;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: lowercase;
+}
+h3 {
+  color: #ee252f;
+  text-transform: uppercase;
+}
+a,
+button {
+  font-family: 'Roboto', sans-serif;
+  color: #080801;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+button {
+  border-radius: 8px;
+  border-color: #f8df1f;
+  background-color: #f8df1f;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #080801;
+  font-size: 16px;
+  font-weight: 400;
+}
+nav {
+  background-color: #f8df1f;
+  padding: 2% 0% 1%;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style-type: none;
+  padding-right: 3%;
+  white-space: nowrap;
+}
+header {
+  background-color: #3B3838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background img {
+  opacity: 0.38;
+  max-width: 100%;
+  position: relative;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+}
+.world,
+.dine {
+  display: flex;
+  padding: 4% 7%;
+  align-items: center;
+}
+.world {
+  background-color: white;
+  display: flex;
+  padding: 4% 7%;
+  align-items: center;
+}
+.world-text,
+.bob {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 7%;
+}
+.dine {
+  background-color: #f3f3f3;
+}
+.dine-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+    }
+}
+footer {
+  background-color: #080801;
+  border-top: 7px #f8df1f solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

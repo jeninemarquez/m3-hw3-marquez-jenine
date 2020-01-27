@@ -1,2 +1,99 @@
 @import "variables";
 @import "mixins";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+//Universal Styles
+li, h1, h2, p, nav, button {
+  .text();
+}
+
+
+h1, h2, h3 {
+  .lg();
+}
+
+h2 {
+  text-transform: lowercase;
+}
+
+h3 {
+  color: @red;
+  text-transform: uppercase;
+}
+
+a, button {
+  .md();
+}
+
+button {
+    border-radius: 8px;
+    border-color: @yellow;
+    background-color: @yellow;
+  }
+
+p {
+  .sm();
+}
+
+//Sections
+
+nav {
+  background-color: @yellow;
+  padding: 2% 0% 1%;
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+        li {
+          list-style-type: none;
+          padding-right: 3%;
+          white-space: nowrap;
+        }
+  }
+}
+
+header {
+  background-color: #3B3838;
+  .flex();
+}
+
+.background img {
+  opacity: 0.38;
+  max-width: 100%;
+  position: relative;
+}
+
+.header-content {
+  .flex();
+  position: absolute;
+  flex-direction: column;
+}
+
+.world, .dine {
+  .flex-section();
+}
+
+.world {
+  background-color: white;
+  .flex-section();
+}
+
+.world-text,.bob {
+  .flex-left();
+}
+
+.dine {
+  background-color: @gray;
+}
+
+.dine-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+footer {
+  background-color: @black;
+  border-top: 7px @yellow solid;
+  .flex();
+}
